@@ -42,12 +42,13 @@ header h1 {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.411);
     padding: 30px;
     font-variant: small-caps;
-    font-size: 5vw;
+    font-size: 10vw;
 }
 
 header > p {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.267);
     padding-bottom: 20px;
+    
 }
 
 a { 
@@ -62,7 +63,7 @@ a:hover {
 
 section {
     font-family: var(--font02);
-    font-size: 5vw;
+    font-size: 8vw;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.356);
     line-height: 1.5em; 
     padding-top: 10vh;
