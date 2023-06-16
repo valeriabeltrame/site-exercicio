@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --font01: verdana, geneva, tahoma, sans-seerif;  
+    --font02: 'Sacramento', cursive;
+    --font03: 'Mochiy Pop One', sans-serif;
+
+    --cor01: #828C6D;
+    --cor02: #9CA686;
+    --cor03: #B8BFA8;
+    --cor04: #565939;
+    --cor05: #3F4026;
+}
+
+html, body {
+    min-height: 100vh;
+    min-width: 100vh;
+    background-color: var(--cor03);
+    font-size: 1em;
+}
+
+
+header {
+    background-color: var(--cor02);
+    background: linear-gradient(to top, var(--cor01), var(--cor03));
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.411);
+    font-family: var(--font03);
+    color: var(--cor05);
+    text-align: center;
+}
+
+header h1 {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.411);
+    padding: 30px;
+    font-variant: small-caps;
+    font-size: 5vw;
+}
+
+header > p {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.267);
+    padding-bottom: 20px;
+}
+
+a { 
+    text-decoration: none;
+    color: var(--cor05);
+}
+
+a:hover {
+    color: var(--cor03);
+    text-decoration: underline;
+}
+
+section {
+    font-family: var(--font02);
+    font-size: 5vw;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.356);
+    line-height: 1.5em; 
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 20px;
+}
+
+section#imagem {
+    background-color: var(--cor04);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+section#imagem > p {
+    background-color: #b8bfa865;
+    padding: 5px;
+    display: inline-block;
+
+}
+section.img01 {
+    background: url("imagens/serra800.JPG");
+}
+
+section.img02 {
+    background: url("imagens/porto800.JPG");
+}
+
+footer {
+    background-color: var(--cor01);
+    padding: 15px;
+    font-family: var(--font03);
+    font-size: 0.7em;
+    text-align: center;
+}
+
+
+
+
